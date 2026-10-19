@@ -1,11 +1,11 @@
+number = int(input("Enter a number: "))
+if number > 0:
+    print("The given number is positive")
 
-first=1
-second=2
+elif number < 0:
+    print("The given number is negative")
+elif number >= 10:
+    print("The given number is greater than 10")
 
-
-if first > second:
-    print ("first is bigger")
 else:
-    print ("first is smaller")
-
-print("done!")
+    print("The given number is zero")
