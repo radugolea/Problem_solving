@@ -10,3 +10,4 @@ elif grade >= 60:
     print("D grade")
 else:
     print("YOU FAILED!")
+
