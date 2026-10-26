@@ -5,10 +5,14 @@
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
     </content>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <orderEntry type="jdk" jdkName="~\PycharmProjects\Problem_solving\.venv" jdkType="Python SDK" />
 =======
     <orderEntry type="jdk" jdkName="~/PycharmProjects/Problem_solving/.venv" jdkType="Python SDK" />
 >>>>>>> 8ac57da (week 3)
+=======
+    <orderEntry type="jdk" jdkName="~\PycharmProjects\Problem_solving\.venv" jdkType="Python SDK" />
+>>>>>>> e575072 (changes on week 2)
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PackageRequirementsSettings" />
