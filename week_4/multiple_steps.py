@@ -1,8 +1,12 @@
-def display_ladder(steps):
-    steps=input("How many steps remain?\n")
-
-    for i in range(int(steps)):
+def display_ladder():
         print("""| |
 ***""")
 
-display_ladder(0)
+
+def create_ladder(steps):
+    steps=input("Enter number of steps:\n ")
+    for i in range(int(steps)):
+        display_ladder()
+
+create_ladder(0)
+
