@@ -1,0 +1,77 @@
+Index: week_4/buit in func.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week_4/buit in func.py b/week_4/buit in func.py
+--- a/week_4/buit in func.py	(revision 7610f4958e51de870f170d510db5e534bb463b80)
++++ b/week_4/buit in func.py	(date 1793692019105)
+@@ -1,0 +1,4 @@
++print("Program Started!")
++letter=input("Enter a letter:\n ")
++value_letter=ASCII(letter)
++def ASCII(letter):
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision 7610f4958e51de870f170d510db5e534bb463b80)
++++ /dev/null	(revision 7610f4958e51de870f170d510db5e534bb463b80)
+@@ -1,5 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Editor-based HTTP Client requests
+-/httpRequests/
+Index: .idea/misc.xml
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml	(revision 7610f4958e51de870f170d510db5e534bb463b80)
++++ /dev/null	(revision 7610f4958e51de870f170d510db5e534bb463b80)
+@@ -1,4 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="~\PycharmProjects\Problem_solving\.venv" project-jdk-type="Python SDK" />
+-</project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+deleted file mode 100644
+--- a/.idea/encodings.xml	(revision 7610f4958e51de870f170d510db5e534bb463b80)
++++ /dev/null	(revision 7610f4958e51de870f170d510db5e534bb463b80)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Encoding">
+-    <file url="file://$PROJECT_DIR$/Week_2/for loop.py" charset="UTF-8" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/Problem_solving.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module type=\"PYTHON_MODULE\" version=\"4\">\n  <component name=\"NewModuleRootManager\">\n    <content url=\"file://$MODULE_DIR$\">\n      <excludeFolder url=\"file://$MODULE_DIR$/.venv\" />\n    </content>\n<<<<<<< HEAD\n<<<<<<< HEAD\n    <orderEntry type=\"jdk\" jdkName=\"~\\PycharmProjects\\Problem_solving\\.venv\" jdkType=\"Python SDK\" />\n=======\n    <orderEntry type=\"jdk\" jdkName=\"~/PycharmProjects/Problem_solving/.venv\" jdkType=\"Python SDK\" />\n>>>>>>> 8ac57da (week 3)\n=======\n    <orderEntry type=\"jdk\" jdkName=\"~\\PycharmProjects\\Problem_solving\\.venv\" jdkType=\"Python SDK\" />\n>>>>>>> e575072 (changes on week 2)\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n  </component>\n  <component name=\"PackageRequirementsSettings\" />\n  <component name=\"PyDocumentationSettings\" />\n  <component name=\"ReSTService\" />\n  <component name=\"TestRunnerService\" />\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Problem_solving.iml b/.idea/Problem_solving.iml
+--- a/.idea/Problem_solving.iml	(revision 7610f4958e51de870f170d510db5e534bb463b80)
++++ b/.idea/Problem_solving.iml	(date 1793262837126)
+@@ -4,15 +4,7 @@
+     <content url="file://$MODULE_DIR$">
+       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+     </content>
+-<<<<<<< HEAD
+-<<<<<<< HEAD
+-    <orderEntry type="jdk" jdkName="~\PycharmProjects\Problem_solving\.venv" jdkType="Python SDK" />
+-=======
+     <orderEntry type="jdk" jdkName="~/PycharmProjects/Problem_solving/.venv" jdkType="Python SDK" />
+->>>>>>> 8ac57da (week 3)
+-=======
+-    <orderEntry type="jdk" jdkName="~\PycharmProjects\Problem_solving\.venv" jdkType="Python SDK" />
+->>>>>>> e575072 (changes on week 2)
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+   <component name="PackageRequirementsSettings" />
