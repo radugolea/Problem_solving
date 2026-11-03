@@ -4,17 +4,24 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73154759-e0a9-4d50-850e-dca6a572b95e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Problem_solving.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Problem_solving.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week_4/buit in func.py" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/buit in func.py" afterDir="false" />
+    <list default="true" id="73154759-e0a9-4d50-850e-dca6a572b95e" name="Changes" comment="Added code to demonstrate the use of built-in functions: len, ord.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/built_in_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/find_ASCII.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="37" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,66 +35,70 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/radugolea/Problem_solving&quot;,
-    &quot;accountId&quot;: &quot;6541739b-14c5-4921-a0bf-b07c7094c5fc&quot;
+    &quot;accountId&quot;: &quot;68686165-62d0-495c-8cc2-8db5d1d85283&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000000002" />
-      <entry key="MS500" value="1.0010750859682702" />
-      <entry key="S2" value="1.38676970236135" />
-      <entry key="S5" value="2.3821226822805115" />
-      <entry key="S10" value="3.3650730733108336" />
-      <entry key="S30" value="5.846570769354589" />
-      <entry key="S60" value="8.6144803122287" />
-      <entry key="M2" value="11.591571527658196" />
-      <entry key="M5" value="14.430797073033032" />
-      <entry key="M10" value="15.634983676769059" />
-      <entry key="M15" value="16.07102262655234" />
-      <entry key="M30" value="16.525737489719276" />
-      <entry key="H1" value="16.760369180597657" />
-      <entry key="H2" value="16.879552539690494" />
-      <entry key="H4" value="16.939617352959452" />
-      <entry key="D1" value="16.989914076519383" />
-      <entry key="W1" value="16.998558610355207" />
+      <entry key="MS100" value="1.2300469126562188" />
+      <entry key="MS500" value="1.7453553429626405" />
+      <entry key="S2" value="1.974605611926708" />
+      <entry key="S5" value="2.816837908546278" />
+      <entry key="S10" value="4.708007169508742" />
+      <entry key="S30" value="9.737360319746601" />
+      <entry key="S60" value="13.117603954517413" />
+      <entry key="M2" value="17.220423212068322" />
+      <entry key="M5" value="29.492934732247644" />
+      <entry key="M10" value="44.653870027417256" />
+      <entry key="M15" value="55.11179480219565" />
+      <entry key="M30" value="75.1458761335128" />
+      <entry key="H1" value="94.20143195550493" />
+      <entry key="H2" value="108.25835949058964" />
+      <entry key="H4" value="116.93873235123584" />
+      <entry key="D1" value="125.21668891986666" />
+      <entry key="W1" value="126.74248463482294" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="S5" value="3.914652420174038E-213" />
+      <entry key="S10" value="6.25712511171968E-107" />
+      <entry key="S30" value="4.1295586152515845E-36" />
+      <entry key="S60" value="2.392009745943875E-18" />
+      <entry key="M2" value="2.0436417432772657E-9" />
+      <entry key="M5" value="4.974023849047063E-4" />
+      <entry key="M10" value="0.03143965781852161" />
+      <entry key="M15" value="0.12541547084356447" />
+      <entry key="M30" value="0.5006508431372426" />
+      <entry key="H1" value="1.0005609490325336" />
+      <entry key="H2" value="1.414578455788815" />
+      <entry key="H4" value="1.6820003594017734" />
+      <entry key="D1" value="1.9431023296739802" />
+      <entry key="W1" value="1.9917708394561782" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.010972225591703114" />
-      <entry key="MS500" value="0.40606899088467485" />
-      <entry key="S2" value="1.0572539747697227" />
-      <entry key="S5" value="2.0244859492616434" />
-      <entry key="S10" value="3.0681227324212585" />
-      <entry key="S30" value="5.682076811370111" />
-      <entry key="S60" value="8.50610932227408" />
-      <entry key="M2" value="11.524571246439832" />
-      <entry key="M5" value="14.399305178098434" />
-      <entry key="M10" value="15.618261037763013" />
-      <entry key="M15" value="16.059639853647866" />
-      <entry key="M30" value="16.519924281166958" />
-      <entry key="H1" value="16.757431217021765" />
-      <entry key="H2" value="16.87807560220424" />
-      <entry key="H4" value="16.938876880622384" />
-      <entry key="D1" value="16.98979038493248" />
-      <entry key="W1" value="16.998540933266447" />
+      <entry key="MS100" value="0.42349253684901744" />
+      <entry key="MS500" value="1.4653209905443931" />
+      <entry key="S2" value="1.8947987002015496" />
+      <entry key="S5" value="2.7773078465985805" />
+      <entry key="S10" value="4.672422632703606" />
+      <entry key="S30" value="9.692357425765008" />
+      <entry key="S60" value="13.077068813947582" />
+      <entry key="M2" value="17.18248327237108" />
+      <entry key="M5" value="29.453057472892937" />
+      <entry key="M10" value="44.64899376811496" />
+      <entry key="M15" value="55.20464260836429" />
+      <entry key="M30" value="75.62097214545398" />
+      <entry key="H1" value="95.18435703272398" />
+      <entry key="H2" value="109.66226000116171" />
+      <entry key="H4" value="118.61481094339902" />
+      <entry key="D1" value="127.15871094851795" />
+      <entry key="W1" value="128.73409867890908" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -95,6 +106,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="3LMTA8WumicIbgYWzhAFSK6d6m1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -102,8 +116,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.built_in_function.executor&quot;: &quot;Run&quot;,
     &quot;Python.buit in func.executor&quot;: &quot;Run&quot;,
     &quot;Python.def calculate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reverse_ascii_find.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
@@ -112,8 +129,10 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
@@ -121,6 +140,11 @@
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week_4" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -137,15 +161,42 @@
       <updated>1793262796180</updated>
       <workItem from="1793262801678" duration="36000" />
       <workItem from="1793633151047" duration="773000" />
-      <workItem from="1793691667393" duration="353000" />
+      <workItem from="1793691667393" duration="677000" />
+      <workItem from="1793692374252" duration="2227000" />
+      <workItem from="1793696566304" duration="77000" />
+      <workItem from="1793698250609" duration="1664000" />
     </task>
+    <task id="LOCAL-00001" summary="week 4">
+      <option name="closed" value="true" />
+      <created>1793692293345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1793692293345</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added code to demonstrate the use of built-in functions: len, ord.">
+      <option name="closed" value="true" />
+      <created>1793693178479</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1793693178479</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="week 4" />
+    <MESSAGE value="Added code to demonstrate the use of built-in functions: len, ord." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of built-in functions: len, ord." />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Problem_solving$buit_in_func.coverage" NAME="buit in func Coverage Results" MODIFIED="1793633206189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
-    <SUITE FILE_PATH="coverage/Problem_solving$def_calculate.coverage" NAME="def calculate Coverage Results" MODIFIED="1793633213826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$built_in_function.coverage" NAME="built_in_function Coverage Results" MODIFIED="1793692952980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$reverse_ascii_find.coverage" NAME="reverse_ascii_find Coverage Results" MODIFIED="1793696200271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$def_calculate.coverage" NAME="def calculate Coverage Results" MODIFIED="1793692509023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
   </component>
 </project>
