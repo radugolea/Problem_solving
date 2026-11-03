@@ -5,6 +5,7 @@ def reverse_find_ascii():
     character = chr(code)
     if code in range(32,127):
         print(f"The character represented by ASCII code {code} is: {character}")
+        print("Program Ended!")
     else:
         print("Code needs to be between 32 and 126 ")
 
