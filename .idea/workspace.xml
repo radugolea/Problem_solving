@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73154759-e0a9-4d50-850e-dca6a572b95e" name="Changes" comment="Added code to demonstrate the use of built-in functions: len, ord.">
+    <list default="true" id="73154759-e0a9-4d50-850e-dca6a572b95e" name="Changes" comment="Added code to demonstrate the implementation of multiple user defined functions.">
+      <change afterPath="$PROJECT_DIR$/week_4/word_manipulation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week_4/built_in_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/find_ASCII.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/multiple_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/multiple_steps.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,62 +45,65 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.2300469126562188" />
-      <entry key="MS500" value="1.7453553429626405" />
-      <entry key="S2" value="1.974605611926708" />
-      <entry key="S5" value="2.816837908546278" />
-      <entry key="S10" value="4.708007169508742" />
-      <entry key="S30" value="9.737360319746601" />
-      <entry key="S60" value="13.117603954517413" />
-      <entry key="M2" value="17.220423212068322" />
-      <entry key="M5" value="29.492934732247644" />
-      <entry key="M10" value="44.653870027417256" />
-      <entry key="M15" value="55.11179480219565" />
-      <entry key="M30" value="75.1458761335128" />
-      <entry key="H1" value="94.20143195550493" />
-      <entry key="H2" value="108.25835949058964" />
-      <entry key="H4" value="116.93873235123584" />
-      <entry key="D1" value="125.21668891986666" />
-      <entry key="W1" value="126.74248463482294" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000115585915423" />
+      <entry key="S5" value="1.0256105219662208" />
+      <entry key="S10" value="1.3516781968703557" />
+      <entry key="S30" value="3.45333555557854" />
+      <entry key="S60" value="6.2753507449116" />
+      <entry key="M2" value="10.9280123915618" />
+      <entry key="M5" value="22.30742572153338" />
+      <entry key="M10" value="42.37124339840772" />
+      <entry key="M15" value="63.346580188203546" />
+      <entry key="M30" value="122.54693639187641" />
+      <entry key="H1" value="203.6713200847603" />
+      <entry key="H2" value="280.39422756523425" />
+      <entry key="H4" value="335.45110232154866" />
+      <entry key="D1" value="393.69699617177866" />
+      <entry key="W1" value="405.0622284054154" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="3.914652420174038E-213" />
-      <entry key="S10" value="6.25712511171968E-107" />
-      <entry key="S30" value="4.1295586152515845E-36" />
-      <entry key="S60" value="2.392009745943875E-18" />
-      <entry key="M2" value="2.0436417432772657E-9" />
-      <entry key="M5" value="4.974023849047063E-4" />
-      <entry key="M10" value="0.03143965781852161" />
-      <entry key="M15" value="0.12541547084356447" />
-      <entry key="M30" value="0.5006508431372426" />
-      <entry key="H1" value="1.0005609490325336" />
-      <entry key="H2" value="1.414578455788815" />
-      <entry key="H4" value="1.6820003594017734" />
-      <entry key="D1" value="1.9431023296739802" />
-      <entry key="W1" value="1.9917708394561782" />
+      <entry key="MS500" value="3.515001361777168E-214" />
+      <entry key="S2" value="6.028547763722156E-54" />
+      <entry key="S5" value="7.627704011217436E-22" />
+      <entry key="S10" value="3.8897206457042827E-11" />
+      <entry key="S30" value="5.373508662933437E-4" />
+      <entry key="S60" value="0.03279065845490422" />
+      <entry key="M2" value="0.2594722209985575" />
+      <entry key="M5" value="0.9822820825946332" />
+      <entry key="M10" value="1.6474239671087132" />
+      <entry key="M15" value="1.9919526014277684" />
+      <entry key="M30" value="2.4931928308865325" />
+      <entry key="H1" value="3.053642099484601" />
+      <entry key="H2" value="3.6890328856826966" />
+      <entry key="H4" value="4.221087965984675" />
+      <entry key="D1" value="4.8481815764349765" />
+      <entry key="W1" value="4.977695227757833" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.42349253684901744" />
-      <entry key="MS500" value="1.4653209905443931" />
-      <entry key="S2" value="1.8947987002015496" />
-      <entry key="S5" value="2.7773078465985805" />
-      <entry key="S10" value="4.672422632703606" />
-      <entry key="S30" value="9.692357425765008" />
-      <entry key="S60" value="13.077068813947582" />
-      <entry key="M2" value="17.18248327237108" />
-      <entry key="M5" value="29.453057472892937" />
-      <entry key="M10" value="44.64899376811496" />
-      <entry key="M15" value="55.20464260836429" />
-      <entry key="M30" value="75.62097214545398" />
-      <entry key="H1" value="95.18435703272398" />
-      <entry key="H2" value="109.66226000116171" />
-      <entry key="H4" value="118.61481094339902" />
-      <entry key="D1" value="127.15871094851795" />
-      <entry key="W1" value="128.73409867890908" />
+      <entry key="MS100" value="2.041515433938768E-5" />
+      <entry key="MS500" value="0.11534281158172478" />
+      <entry key="S2" value="0.5827815806471341" />
+      <entry key="S5" value="0.8305864518636721" />
+      <entry key="S10" value="1.2420500118297546" />
+      <entry key="S30" value="3.3913146952803817" />
+      <entry key="S60" value="6.252026910761486" />
+      <entry key="M2" value="11.132426940016215" />
+      <entry key="M5" value="23.240574199409625" />
+      <entry key="M10" value="43.97541650532146" />
+      <entry key="M15" value="65.29819103606425" />
+      <entry key="M30" value="125.00406538728849" />
+      <entry key="H1" value="206.69527837944702" />
+      <entry key="H2" value="284.06245118783664" />
+      <entry key="H4" value="339.65952912638556" />
+      <entry key="D1" value="398.5426550073186" />
+      <entry key="W1" value="410.03955151722283" />
     </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -113,33 +117,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.built_in_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.buit in func.executor&quot;: &quot;Run&quot;,
-    &quot;Python.def calculate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.reverse_ascii_find.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.built_in_function.executor": "Run",
+    "Python.buit in func.executor": "Run",
+    "Python.climb_ladder.executor": "Run",
+    "Python.cross_bridge.executor": "Run",
+    "Python.custom_functions.executor": "Run",
+    "Python.def calculate.executor": "Run",
+    "Python.def identify.executor": "Run",
+    "Python.multiple_steps.executor": "Run",
+    "Python.reverse_ascii_find.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "settings.sync",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/week_4" />
@@ -164,7 +173,8 @@
       <workItem from="1793691667393" duration="677000" />
       <workItem from="1793692374252" duration="2227000" />
       <workItem from="1793696566304" duration="77000" />
-      <workItem from="1793698250609" duration="1664000" />
+      <workItem from="1793698250609" duration="1781000" />
+      <workItem from="1793706089716" duration="5659000" />
     </task>
     <task id="LOCAL-00001" summary="week 4">
       <option name="closed" value="true" />
@@ -182,7 +192,71 @@
       <option name="project" value="LOCAL" />
       <updated>1793693178479</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added code to demonstrate the use of built-in functions: len, ord.">
+      <option name="closed" value="true" />
+      <created>1793700311447</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1793700311447</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added code to demonstrate the use of a user-defined function">
+      <option name="closed" value="true" />
+      <created>1793706823895</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1793706823895</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added code to demonstrate the use of a user-defined function">
+      <option name="closed" value="true" />
+      <created>1793707376764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1793707376764</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added code to demonstrate the use of a user-defined function with a nested decision.">
+      <option name="closed" value="true" />
+      <created>1793707955118</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1793707955118</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added code to demonstrate the use of a user-defined function with a loop.">
+      <option name="closed" value="true" />
+      <created>1793709343462</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1793709343462</updated>
+    </task>
+    <task id="LOCAL-00008" summary="revisit">
+      <option name="closed" value="true" />
+      <created>1793709355711</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1793709355711</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added code to demonstrate the implementation of multiple user defined functions.">
+      <option name="closed" value="true" />
+      <created>1793710956476</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1793710956477</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added code to demonstrate the implementation of multiple user defined functions.">
+      <option name="closed" value="true" />
+      <created>1793710965724</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1793710965724</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,12 +265,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="week 4" />
     <MESSAGE value="Added code to demonstrate the use of built-in functions: len, ord." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of built-in functions: len, ord." />
+    <MESSAGE value="Added code to demonstrate the use of a user-defined function" />
+    <MESSAGE value="Added code to demonstrate the use of a user-defined function with a nested decision." />
+    <MESSAGE value="Added code to demonstrate the use of a user-defined function with a loop." />
+    <MESSAGE value="revisit" />
+    <MESSAGE value="Added code to demonstrate the implementation of multiple user defined functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the implementation of multiple user defined functions." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Problem_solving$buit_in_func.coverage" NAME="buit in func Coverage Results" MODIFIED="1793633206189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
     <SUITE FILE_PATH="coverage/Problem_solving$built_in_function.coverage" NAME="built_in_function Coverage Results" MODIFIED="1793692952980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
     <SUITE FILE_PATH="coverage/Problem_solving$reverse_ascii_find.coverage" NAME="reverse_ascii_find Coverage Results" MODIFIED="1793696200271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
-    <SUITE FILE_PATH="coverage/Problem_solving$def_calculate.coverage" NAME="def calculate Coverage Results" MODIFIED="1793692509023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$custom_functions.coverage" NAME="custom_functions Coverage Results" MODIFIED="1793707251559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$cross_bridge.coverage" NAME="cross_bridge Coverage Results" MODIFIED="1793709251818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$def_calculate.coverage" NAME="def calculate Coverage Results" MODIFIED="1793706603333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$def_identify.coverage" NAME="def identify Coverage Results" MODIFIED="1793707908582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$climb_ladder.coverage" NAME="climb_ladder Coverage Results" MODIFIED="1793710152933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$multiple_steps.coverage" NAME="multiple_steps Coverage Results" MODIFIED="1793711702492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
   </component>
 </project>
