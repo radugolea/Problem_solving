@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73154759-e0a9-4d50-850e-dca6a572b95e" name="Changes" comment="Added code to demonstrate a simple list">
-      <change afterPath="$PROJECT_DIR$/week_5/directions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week_5/path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="73154759-e0a9-4d50-850e-dca6a572b95e" name="Changes" comment="Added code to demonstrate using def">
+      <change afterPath="$PROJECT_DIR$/week_5/tuple_task.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,60 +44,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000199920271" />
-      <entry key="S2" value="1.0120476852556404" />
-      <entry key="S5" value="1.2349744558131577" />
-      <entry key="S10" value="1.920436040385995" />
-      <entry key="S30" value="4.15694688598612" />
-      <entry key="S60" value="6.804686868140129" />
-      <entry key="M2" value="12.314882272911865" />
-      <entry key="M5" value="30.40822029555812" />
-      <entry key="M10" value="61.00100791848061" />
-      <entry key="M15" value="88.51102022466242" />
-      <entry key="M30" value="159.2087654994627" />
-      <entry key="H1" value="270.3000808014096" />
-      <entry key="H2" value="402.9301925910268" />
-      <entry key="H4" value="516.1783130645491" />
-      <entry key="D1" value="652.5036665647425" />
-      <entry key="W1" value="681.0665561211897" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000001275756194" />
+      <entry key="S5" value="1.0039430693336906" />
+      <entry key="S10" value="1.1542340551047687" />
+      <entry key="S30" value="3.2629394592954926" />
+      <entry key="S60" value="6.5624163455578595" />
+      <entry key="M2" value="12.52749537369573" />
+      <entry key="M5" value="29.56134752644902" />
+      <entry key="M10" value="58.92459081342785" />
+      <entry key="M15" value="86.80696299336876" />
+      <entry key="M30" value="159.94910241362277" />
+      <entry key="H1" value="275.1259340117108" />
+      <entry key="H2" value="414.0168049081666" />
+      <entry key="H4" value="534.0046628382586" />
+      <entry key="D1" value="679.9267932315369" />
+      <entry key="W1" value="710.6819816602273" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="9.011888747321562E-58" />
-      <entry key="MS500" value="3.8990891427103376E-12" />
-      <entry key="S2" value="0.0014052085742293165" />
-      <entry key="S5" value="0.07229301149591999" />
-      <entry key="S10" value="0.2688749539877235" />
-      <entry key="S30" value="0.6569316783841584" />
-      <entry key="S60" value="0.9293838931143463" />
-      <entry key="M2" value="1.3648571289730629" />
-      <entry key="M5" value="2.06064424307474" />
-      <entry key="M10" value="2.6154196344325693" />
-      <entry key="M15" value="3.2700177087423263" />
-      <entry key="M30" value="5.856856168091593" />
-      <entry key="H1" value="9.92706462123961" />
-      <entry key="H2" value="13.939444678429215" />
-      <entry key="H4" value="16.92813597258955" />
-      <entry key="D1" value="20.224506716176702" />
-      <entry key="W1" value="20.88647762922442" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.4454564638084072E-82" />
+      <entry key="S2" value="3.9544854676225786E-21" />
+      <entry key="S5" value="6.900074537533332E-9" />
+      <entry key="S10" value="8.359660658205596E-5" />
+      <entry key="S30" value="0.05174212343375065" />
+      <entry key="S60" value="0.3023515187650135" />
+      <entry key="M2" value="0.8403652006301187" />
+      <entry key="M5" value="2.0223048124794794" />
+      <entry key="M10" value="3.1361659614003" />
+      <entry key="M15" value="4.004923306835517" />
+      <entry key="M30" value="6.732822298273857" />
+      <entry key="H1" value="10.978532428888476" />
+      <entry key="H2" value="15.271911663398065" />
+      <entry key="H4" value="18.521766903835353" />
+      <entry key="D1" value="22.143359481911677" />
+      <entry key="W1" value="22.874499126493777" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7737824967711949" />
-      <entry key="MS500" value="0.9500003886884386" />
-      <entry key="S2" value="0.9968611602419255" />
-      <entry key="S5" value="1.263448428320743" />
-      <entry key="S10" value="2.1191673864304597" />
-      <entry key="S30" value="4.737562889469874" />
-      <entry key="S60" value="7.639827411431055" />
-      <entry key="M2" value="13.578144659982206" />
-      <entry key="M5" value="32.37802120535345" />
-      <entry key="M10" value="63.530398489802664" />
-      <entry key="M15" value="91.69726428414253" />
-      <entry key="M30" value="164.990563055976" />
-      <entry key="H1" value="280.16698996019915" />
-      <entry key="H2" value="416.82725737115186" />
-      <entry key="H4" value="533.0801629085817" />
-      <entry key="D1" value="672.7227774927019" />
-      <entry key="W1" value="701.9522325623071" />
+      <entry key="MS100" value="9.85495660248723E-16" />
+      <entry key="MS500" value="9.970821540109308E-4" />
+      <entry key="S2" value="0.17769820053229213" />
+      <entry key="S5" value="0.5048770085420391" />
+      <entry key="S10" value="0.8591568400795424" />
+      <entry key="S30" value="3.1700006219423087" />
+      <entry key="S60" value="6.7446777779738705" />
+      <entry key="M2" value="13.26458804883075" />
+      <entry key="M5" value="31.495870156223077" />
+      <entry key="M10" value="61.97760837633562" />
+      <entry key="M15" value="90.73026180747567" />
+      <entry key="M30" value="166.60697955434821" />
+      <entry key="H1" value="286.043155368363" />
+      <entry key="H2" value="429.2449646250476" />
+      <entry key="H4" value="552.4990861755804" />
+      <entry key="D1" value="702.064499016771" />
+      <entry key="W1" value="733.5556401698472" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -137,6 +135,7 @@
     "Python.multiple_steps.executor": "Run",
     "Python.path.executor": "Run",
     "Python.reverse_ascii_find.executor": "Run",
+    "Python.tuple_task.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -183,7 +182,7 @@
       <workItem from="1793696566304" duration="77000" />
       <workItem from="1793698250609" duration="1781000" />
       <workItem from="1793706089716" duration="5800000" />
-      <workItem from="1794235317475" duration="5440000" />
+      <workItem from="1794235317475" duration="5945000" />
     </task>
     <task id="LOCAL-00001" summary="week 4">
       <option name="closed" value="true" />
@@ -289,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794239277890</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added code to demonstrate using def">
+      <option name="closed" value="true" />
+      <created>1794240837685</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1794240837685</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +312,8 @@
     <MESSAGE value="Added code to demonstrate the implementation of multiple user defined functions." />
     <MESSAGE value="da" />
     <MESSAGE value="Added code to demonstrate a simple list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate a simple list" />
+    <MESSAGE value="Added code to demonstrate using def" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate using def" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Problem_solving$Tuple.coverage" NAME="Tuple Coverage Results" MODIFIED="1794238402653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
@@ -314,6 +322,7 @@
     <SUITE FILE_PATH="coverage/Problem_solving$cross_bridge.coverage" NAME="cross_bridge Coverage Results" MODIFIED="1793709251818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
     <SUITE FILE_PATH="coverage/Problem_solving$custom_functions.coverage" NAME="custom_functions Coverage Results" MODIFIED="1793707251559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
     <SUITE FILE_PATH="coverage/Problem_solving$reverse_ascii_find.coverage" NAME="reverse_ascii_find Coverage Results" MODIFIED="1793696200271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$tuple_task.coverage" NAME="tuple_task Coverage Results" MODIFIED="1794241234118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
     <SUITE FILE_PATH="coverage/Problem_solving$climb_ladder.coverage" NAME="climb_ladder Coverage Results" MODIFIED="1793710152933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
     <SUITE FILE_PATH="coverage/Problem_solving$path.coverage" NAME="path Coverage Results" MODIFIED="1794240040135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
     <SUITE FILE_PATH="coverage/Problem_solving$directions.coverage" NAME="directions Coverage Results" MODIFIED="1794240707831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
