@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73154759-e0a9-4d50-850e-dca6a572b95e" name="Changes" comment="Added code to demonstrate using def">
-      <change afterPath="$PROJECT_DIR$/largest_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week_5/average_marks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week_5/calculate_even.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_11_2026,_07_47_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_11_2026__07_47__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/week_6/Algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +34,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/radugolea/Problem_solving&quot;,
-    &quot;accountId&quot;: &quot;68686165-62d0-495c-8cc2-8db5d1d85283&quot;
+    &quot;url&quot;: &quot;https://github.com/radugolea/Problem_solving.git&quot;,
+    &quot;accountId&quot;: &quot;08ece1c2-ca94-4231-9101-9a17ef3cf9e5&quot;
   }
 }</component>
   <component name="McpProjectServerCommands">
@@ -50,60 +45,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000179370648885" />
-      <entry key="S2" value="1.1120125931640774" />
-      <entry key="S5" value="2.082771506254849" />
-      <entry key="S10" value="3.8752567771515998" />
-      <entry key="S30" value="8.039639646974642" />
-      <entry key="S60" value="10.400967631528165" />
-      <entry key="M2" value="12.401708490516292" />
-      <entry key="M5" value="21.20557570206899" />
-      <entry key="M10" value="48.25516653340351" />
-      <entry key="M15" value="82.94808420610812" />
-      <entry key="M30" value="188.42749068575654" />
-      <entry key="H1" value="355.0847693993759" />
-      <entry key="H2" value="558.8931100314612" />
-      <entry key="H4" value="743.5294301689801" />
-      <entry key="D1" value="980.386372723894" />
-      <entry key="W1" value="1032.0139257110475" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000897078" />
+      <entry key="S5" value="1.0002228612021733" />
+      <entry key="S10" value="1.0472668497472657" />
+      <entry key="S30" value="3.389883514417437" />
+      <entry key="S60" value="9.044246052100846" />
+      <entry key="M2" value="19.68234861740792" />
+      <entry key="M5" value="49.698641182124376" />
+      <entry key="M10" value="96.83173646044372" />
+      <entry key="M15" value="140.31750722462007" />
+      <entry key="M30" value="258.9262078848757" />
+      <entry key="H1" value="449.02797361583185" />
+      <entry key="H2" value="690.1781591180571" />
+      <entry key="H4" value="916.4626413789239" />
+      <entry key="D1" value="1216.5858960713372" />
+      <entry key="W1" value="1283.3360023854266" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="3.428351889458243E-118" />
-      <entry key="S5" value="1.0328426345038794E-47" />
-      <entry key="S10" value="3.2137869165579087E-24" />
-      <entry key="S30" value="1.4757278063309809E-8" />
-      <entry key="S60" value="1.216186308480738E-4" />
-      <entry key="M2" value="0.011423264589849498" />
-      <entry key="M5" value="0.24042271376048788" />
-      <entry key="M10" value="1.0408106446316496" />
-      <entry key="M15" value="2.036135996976676" />
-      <entry key="M30" value="5.143525943912123" />
-      <entry key="H1" value="10.433603348538025" />
-      <entry key="H2" value="16.714913373656355" />
-      <entry key="H4" value="22.027123668073322" />
-      <entry key="D1" value="28.422348601193114" />
-      <entry key="W1" value="29.767412946517254" />
+      <entry key="MS500" value="9.9E-324" />
+      <entry key="S2" value="1.785311338085655E-81" />
+      <entry key="S5" value="5.0197904180697895E-33" />
+      <entry key="S10" value="7.085047946196412E-17" />
+      <entry key="S30" value="4.144736704600264E-6" />
+      <entry key="S60" value="0.0021511332070381535" />
+      <entry key="M2" value="0.06303936435764236" />
+      <entry key="M5" value="0.7854427816478952" />
+      <entry key="M10" value="2.3833760504365324" />
+      <entry key="M15" value="3.8250477939499183" />
+      <entry key="M30" value="7.530238619551953" />
+      <entry key="H1" value="13.500195585691946" />
+      <entry key="H2" value="20.939385176471916" />
+      <entry key="H4" value="27.568585448712355" />
+      <entry key="D1" value="35.89531883742518" />
+      <entry key="W1" value="37.68855315444762" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7955364837549187" />
-      <entry key="MS500" value="0.9553001836943972" />
-      <entry key="S2" value="1.099291096076564" />
-      <entry key="S5" value="2.054751547040365" />
-      <entry key="S10" value="3.7847376566986313" />
-      <entry key="S30" value="7.888782400441453" />
-      <entry key="S60" value="10.282939446024997" />
-      <entry key="M2" value="12.337408031558352" />
-      <entry key="M5" value="21.399288976528005" />
-      <entry key="M10" value="49.24295553806135" />
-      <entry key="M15" value="84.9195241711252" />
-      <entry key="M30" value="193.49103858418803" />
-      <entry key="H1" value="365.44134023844816" />
-      <entry key="H2" value="575.5482973085454" />
-      <entry key="H4" value="765.5175198231319" />
-      <entry key="D1" value="1008.8003071372059" />
-      <entry key="W1" value="1061.7800778808864" />
+      <entry key="MS100" value="2.1276796474806044E-10" />
+      <entry key="MS500" value="0.01163004105598859" />
+      <entry key="S2" value="0.3283940744339977" />
+      <entry key="S5" value="0.6407736507544182" />
+      <entry key="S10" value="0.8467579102582976" />
+      <entry key="S30" value="3.300733810621803" />
+      <entry key="S60" value="8.976355624086679" />
+      <entry key="M2" value="19.673501058672983" />
+      <entry key="M5" value="50.39338694024036" />
+      <entry key="M10" value="99.12038215589415" />
+      <entry key="M15" value="144.04904032133464" />
+      <entry key="M30" value="266.36410707455383" />
+      <entry key="H1" value="462.44262503217766" />
+      <entry key="H2" value="711.0500704871758" />
+      <entry key="H4" value="943.9862210631532" />
+      <entry key="D1" value="1252.4712761220608" />
+      <entry key="W1" value="1321.0230590499596" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -125,6 +120,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Algorithm.executor": "Run",
     "Python.Tuple.executor": "Run",
     "Python.another_list.executor": "Run",
     "Python.avarage_marks.executor": "Run",
@@ -169,13 +165,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week_5" />
       <recent name="$PROJECT_DIR$/week_4" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
+        <option value="bundled-js-predefined-d6986cc7102b-56aff7b04f6f-JavaScript-PY-263.7307.351" />
+        <option value="bundled-python-sdk-342d7f33e45b-e0583fc556d1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-263.7307.351" />
       </set>
     </attachedChunks>
   </component>
@@ -196,6 +194,8 @@
       <workItem from="1794235317475" duration="6260000" />
       <workItem from="1794241766144" duration="2089000" />
       <workItem from="1794314079349" duration="3189000" />
+      <workItem from="1794441278281" duration="171000" />
+      <workItem from="1795520609092" duration="2395000" />
     </task>
     <task id="LOCAL-00001" summary="week 4">
       <option name="closed" value="true" />
@@ -317,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794241358318</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added code to demonstrate using def">
+      <option name="closed" value="true" />
+      <created>1794441438890</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1794441438890</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,26 +346,27 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Problem_solving$Tuple.coverage" NAME="Tuple Coverage Results" MODIFIED="1794238402653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
-    <SUITE FILE_PATH="coverage/Problem_solving$buit_in_func.coverage" NAME="buit in func Coverage Results" MODIFIED="1793633206189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
-    <SUITE FILE_PATH="coverage/Problem_solving$calculate_even.coverage" NAME="calculate_even Coverage Results" MODIFIED="1794315518849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
-    <SUITE FILE_PATH="coverage/Problem_solving$average_marks.coverage" NAME="average_marks Coverage Results" MODIFIED="1794316451615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
-    <SUITE FILE_PATH="coverage/Problem_solving$list_tasks.coverage" NAME="list_tasks Coverage Results" MODIFIED="1794238851959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
-    <SUITE FILE_PATH="coverage/Problem_solving$cross_bridge.coverage" NAME="cross_bridge Coverage Results" MODIFIED="1793709251818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
     <SUITE FILE_PATH="coverage/Problem_solving$custom_functions.coverage" NAME="custom_functions Coverage Results" MODIFIED="1793707251559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
-    <SUITE FILE_PATH="coverage/Problem_solving$reverse_ascii_find.coverage" NAME="reverse_ascii_find Coverage Results" MODIFIED="1793696200271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
-    <SUITE FILE_PATH="coverage/Problem_solving$tuple_task.coverage" NAME="tuple_task Coverage Results" MODIFIED="1794241234118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
-    <SUITE FILE_PATH="coverage/Problem_solving$climb_ladder.coverage" NAME="climb_ladder Coverage Results" MODIFIED="1793710152933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
-    <SUITE FILE_PATH="coverage/Problem_solving$path.coverage" NAME="path Coverage Results" MODIFIED="1794240040135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
-    <SUITE FILE_PATH="coverage/Problem_solving$largest_number.coverage" NAME="largest_number Coverage Results" MODIFIED="1794314791010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Problem_solving$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1794441323314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Problem_solving$Algorithm.coverage" NAME="Algorithm Coverage Results" MODIFIED="1795522833219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_6" />
+    <SUITE FILE_PATH="coverage/Problem_solving$avarage_marks.coverage" NAME="avarage_marks Coverage Results" MODIFIED="1794315744487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
+    <SUITE FILE_PATH="coverage/Problem_solving$average_marks.coverage" NAME="average_marks Coverage Results" MODIFIED="1794316451615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
+    <SUITE FILE_PATH="coverage/Problem_solving$calculate_even.coverage" NAME="calculate_even Coverage Results" MODIFIED="1794315518849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
+    <SUITE FILE_PATH="coverage/Problem_solving$built_in_function.coverage" NAME="built_in_function Coverage Results" MODIFIED="1793692952980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
     <SUITE FILE_PATH="coverage/Problem_solving$directions.coverage" NAME="directions Coverage Results" MODIFIED="1794240707831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
     <SUITE FILE_PATH="coverage/Problem_solving$another_list.coverage" NAME="another_list Coverage Results" MODIFIED="1794238014606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
-    <SUITE FILE_PATH="coverage/Problem_solving$lists.coverage" NAME="lists Coverage Results" MODIFIED="1794236653895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
-    <SUITE FILE_PATH="coverage/Problem_solving$built_in_function.coverage" NAME="built_in_function Coverage Results" MODIFIED="1793692952980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
-    <SUITE FILE_PATH="coverage/Problem_solving$list_new.coverage" NAME="list_new Coverage Results" MODIFIED="1794237108536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
+    <SUITE FILE_PATH="coverage/Problem_solving$list_tasks.coverage" NAME="list_tasks Coverage Results" MODIFIED="1794238851959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
+    <SUITE FILE_PATH="coverage/Problem_solving$largest_number.coverage" NAME="largest_number Coverage Results" MODIFIED="1794441318577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Problem_solving$path.coverage" NAME="path Coverage Results" MODIFIED="1794240040135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
+    <SUITE FILE_PATH="coverage/Problem_solving$tuple_task.coverage" NAME="tuple_task Coverage Results" MODIFIED="1794241234118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
     <SUITE FILE_PATH="coverage/Problem_solving$def_calculate.coverage" NAME="def calculate Coverage Results" MODIFIED="1794243103328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
-    <SUITE FILE_PATH="coverage/Problem_solving$def_identify.coverage" NAME="def identify Coverage Results" MODIFIED="1793707908582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
-    <SUITE FILE_PATH="coverage/Problem_solving$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1794243115682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Problem_solving$avarage_marks.coverage" NAME="avarage_marks Coverage Results" MODIFIED="1794315744487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
     <SUITE FILE_PATH="coverage/Problem_solving$multiple_steps.coverage" NAME="multiple_steps Coverage Results" MODIFIED="1793711791366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$lists.coverage" NAME="lists Coverage Results" MODIFIED="1794236653895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
+    <SUITE FILE_PATH="coverage/Problem_solving$climb_ladder.coverage" NAME="climb_ladder Coverage Results" MODIFIED="1793710152933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$list_new.coverage" NAME="list_new Coverage Results" MODIFIED="1794237108536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_5" />
+    <SUITE FILE_PATH="coverage/Problem_solving$def_identify.coverage" NAME="def identify Coverage Results" MODIFIED="1793707908582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$buit_in_func.coverage" NAME="buit in func Coverage Results" MODIFIED="1793633206189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$cross_bridge.coverage" NAME="cross_bridge Coverage Results" MODIFIED="1793709251818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
+    <SUITE FILE_PATH="coverage/Problem_solving$reverse_ascii_find.coverage" NAME="reverse_ascii_find Coverage Results" MODIFIED="1793696200271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week_4" />
   </component>
 </project>
